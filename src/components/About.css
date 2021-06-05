@@ -1,0 +1,74 @@
+.info {
+  padding: 0 40px 0 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bio {
+  display: flex;
+}
+
+.headshot {
+  max-width: 400px;
+  max-height: 500px;
+  box-shadow: 10px 15px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  width: 70%;
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.icon {
+  width: 80px;
+  padding: 0 10px 0 10px;
+}
+
+.my_stacks {
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 850px) {
+  .headshot {
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+  .bio {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  p {
+    width: 90%;
+    font-size: 1rem;
+    margin-right: 0;
+    padding: 0 10px 0 10px;
+  }
+
+  .my_stacks {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .headshot {
+    max-width: 250px;
+    margin-bottom: 40px;
+  }
+
+  .bio {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .p {
+    margin-right: 0;
+  }
+}
